@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.doctorsmp.bleb_rancher.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"Mixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

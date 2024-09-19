@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "bleb_rancher:no_fall_damage_dummy",
+    "bleb_rancher:slower_speed",
+    "bleb_rancher:instant_eat"
+
+  ],
+  "icon": "bleb_rancher:item/pink_plort",
+  "order": 4,
+  "impact": 3,
+  "name": "Розовый блёба",
+  "description": "Да"
+}

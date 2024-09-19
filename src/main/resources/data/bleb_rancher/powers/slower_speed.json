@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.6,
+    "operation": "multiply_base"
+  },
+  "hidden": true
+}

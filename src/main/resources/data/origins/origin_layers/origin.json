@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "origins": [
+    "bleb_rancher:pink_slime"
+  ]
+}

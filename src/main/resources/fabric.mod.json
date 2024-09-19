@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "bleb_rancher",
+	"version": "0.0.1",
+	"name": "Bleb Rancher",
+	"description": "Кастомный мод для сервера Bleb Rancher\nРазработчики:\n - Doctor SMP - тимлид, геймдизайнер, программист\n - Hina - дизайнер моделей и текстур",
+	"authors": [
+		"Doctor SMP",
+		"Hina"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bleb_rancher/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.doctorsmp.bleb_rancher.BlebRancher"
+		]
+	},
+	"mixins": [
+		"bleb_rancher.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.16.5",
+		"java": ">=8",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
